@@ -1,4 +1,4 @@
-//  CustomPaths.swift
+//  CustomPaths_Part1.swift
 /**
  SOURCE :
  https://www.hackingwithswift.com/books/ios-swiftui/creating-custom-paths-with-swiftui
@@ -8,7 +8,7 @@ import SwiftUI
 
 
 
-struct CustomPaths: View {
+struct CustomPaths_Part1: View {
     
      // //////////////////////////
     //  MARK: COMPUTED PROPERTIES
@@ -31,10 +31,10 @@ struct CustomPaths: View {
 
 
 
-struct CustomPaths_Previews: PreviewProvider {
+struct CustomPaths_Part1_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        CustomPaths().previewDevice("iPhone 12 Pro")
+        CustomPaths_Part1().previewDevice("iPhone 12 Pro")
     }
 }
