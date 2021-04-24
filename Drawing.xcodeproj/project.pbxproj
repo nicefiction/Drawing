@@ -16,6 +16,8 @@
 		0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953479626345CF300ED6DC1 /* CustomPaths_Part3.swift */; };
 		0953479A263464B300ED6DC1 /* PathsVersusShapes_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09534799263464B300ED6DC1 /* PathsVersusShapes_Part1.swift */; };
 		0953479E263468C200ED6DC1 /* PathsVersusShapes_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953479D263468C200ED6DC1 /* PathsVersusShapes_Part2.swift */; };
+		095347A2263474CE00ED6DC1 /* StrokeBorderSupport_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */; };
+		095347A52634823200ED6DC1 /* StrokeBorderSupport_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0953479626345CF300ED6DC1 /* CustomPaths_Part3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaths_Part3.swift; sourceTree = "<group>"; };
 		09534799263464B300ED6DC1 /* PathsVersusShapes_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVersusShapes_Part1.swift; sourceTree = "<group>"; };
 		0953479D263468C200ED6DC1 /* PathsVersusShapes_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVersusShapes_Part2.swift; sourceTree = "<group>"; };
+		095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part1.swift; sourceTree = "<group>"; };
+		095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				0953479626345CF300ED6DC1 /* CustomPaths_Part3.swift */,
 				09534799263464B300ED6DC1 /* PathsVersusShapes_Part1.swift */,
 				0953479D263468C200ED6DC1 /* PathsVersusShapes_Part2.swift */,
+				095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */,
+				095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */,
 			);
 			path = Day43;
 			sourceTree = "<group>";
@@ -165,9 +171,11 @@
 				095347902634189700ED6DC1 /* CustomPaths_Part1.swift in Sources */,
 				0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */,
 				095347942634595200ED6DC1 /* CustomPaths_Part2.swift in Sources */,
+				095347A2263474CE00ED6DC1 /* StrokeBorderSupport_Part1.swift in Sources */,
 				095347802634131300ED6DC1 /* ContentView.swift in Sources */,
 				0953479E263468C200ED6DC1 /* PathsVersusShapes_Part2.swift in Sources */,
 				0953477E2634131300ED6DC1 /* DrawingApp.swift in Sources */,
+				095347A52634823200ED6DC1 /* StrokeBorderSupport_Part2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
