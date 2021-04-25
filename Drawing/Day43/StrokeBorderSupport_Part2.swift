@@ -1,4 +1,8 @@
 //  StrokeBorderSupport_Part2.swift
+/**
+ SOURCE :
+ https://www.hackingwithswift.com/books/ios-swiftui/adding-strokeborder-support-with-insettableshape
+ */
 
 import SwiftUI
 

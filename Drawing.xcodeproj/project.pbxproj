@@ -18,6 +18,7 @@
 		0953479E263468C200ED6DC1 /* PathsVersusShapes_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953479D263468C200ED6DC1 /* PathsVersusShapes_Part2.swift */; };
 		095347A2263474CE00ED6DC1 /* StrokeBorderSupport_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */; };
 		095347A52634823200ED6DC1 /* StrokeBorderSupport_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */; };
+		095347A92635306300ED6DC1 /* CGAffineTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A82635306200ED6DC1 /* CGAffineTransformView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0953479D263468C200ED6DC1 /* PathsVersusShapes_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVersusShapes_Part2.swift; sourceTree = "<group>"; };
 		095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part1.swift; sourceTree = "<group>"; };
 		095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part2.swift; sourceTree = "<group>"; };
+		095347A82635306200ED6DC1 /* CGAffineTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0953478D2634137300ED6DC1 /* Day43 */,
+				095347A726352FD900ED6DC1 /* Day44 */,
 				0953477D2634131300ED6DC1 /* DrawingApp.swift */,
 				0953477F2634131300ED6DC1 /* ContentView.swift */,
 				095347812634131500ED6DC1 /* Assets.xcassets */,
@@ -96,6 +99,14 @@
 				095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */,
 			);
 			path = Day43;
+			sourceTree = "<group>";
+		};
+		095347A726352FD900ED6DC1 /* Day44 */ = {
+			isa = PBXGroup;
+			children = (
+				095347A82635306200ED6DC1 /* CGAffineTransformView.swift */,
+			);
+			path = Day44;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				095347902634189700ED6DC1 /* CustomPaths_Part1.swift in Sources */,
 				0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */,
 				095347942634595200ED6DC1 /* CustomPaths_Part2.swift in Sources */,
+				095347A92635306300ED6DC1 /* CGAffineTransformView.swift in Sources */,
 				095347A2263474CE00ED6DC1 /* StrokeBorderSupport_Part1.swift in Sources */,
 				095347802634131300ED6DC1 /* ContentView.swift in Sources */,
 				0953479E263468C200ED6DC1 /* PathsVersusShapes_Part2.swift in Sources */,
