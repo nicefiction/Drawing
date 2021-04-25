@@ -19,6 +19,8 @@
 		095347A2263474CE00ED6DC1 /* StrokeBorderSupport_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */; };
 		095347A52634823200ED6DC1 /* StrokeBorderSupport_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */; };
 		095347A92635306300ED6DC1 /* CGAffineTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347A82635306200ED6DC1 /* CGAffineTransformView.swift */; };
+		095347AD2635557E00ED6DC1 /* CreativeBordersAndFills_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347AC2635557C00ED6DC1 /* CreativeBordersAndFills_Part1.swift */; };
+		095347B126355EA100ED6DC1 /* CreativeBordersAndFills_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347B026355EA000ED6DC1 /* CreativeBordersAndFills_Part2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		095347A1263474CD00ED6DC1 /* StrokeBorderSupport_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part1.swift; sourceTree = "<group>"; };
 		095347A42634823200ED6DC1 /* StrokeBorderSupport_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderSupport_Part2.swift; sourceTree = "<group>"; };
 		095347A82635306200ED6DC1 /* CGAffineTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformView.swift; sourceTree = "<group>"; };
+		095347AC2635557C00ED6DC1 /* CreativeBordersAndFills_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFills_Part1.swift; sourceTree = "<group>"; };
+		095347B026355EA000ED6DC1 /* CreativeBordersAndFills_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFills_Part2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				095347A82635306200ED6DC1 /* CGAffineTransformView.swift */,
+				095347AC2635557C00ED6DC1 /* CreativeBordersAndFills_Part1.swift */,
+				095347B026355EA000ED6DC1 /* CreativeBordersAndFills_Part2.swift */,
 			);
 			path = Day44;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 			files = (
 				0953479A263464B300ED6DC1 /* PathsVersusShapes_Part1.swift in Sources */,
 				095347902634189700ED6DC1 /* CustomPaths_Part1.swift in Sources */,
+				095347AD2635557E00ED6DC1 /* CreativeBordersAndFills_Part1.swift in Sources */,
+				095347B126355EA100ED6DC1 /* CreativeBordersAndFills_Part2.swift in Sources */,
 				0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */,
 				095347942634595200ED6DC1 /* CustomPaths_Part2.swift in Sources */,
 				095347A92635306300ED6DC1 /* CGAffineTransformView.swift in Sources */,

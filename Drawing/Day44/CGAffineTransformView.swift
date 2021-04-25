@@ -84,6 +84,11 @@ struct CGAffineTransformView: View {
      // ////////////////////////
     //  MARK: PROPERTY WRAPPERS
     
+    /**
+     To really help you understand what is going on ,
+     we’ll be making our petal ellipses use a couple of properties
+     we can pass in externally . ( OLIVIER : Using a Slider View . )
+     */
     @State private var petalOffset: Double = -20.00
     @State private var petalWidth: Double = 100.00
     
