@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094CD0C826372E3900F3CA05 /* AnimatingComplexShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CD0C726372E3900F3CA05 /* AnimatingComplexShapes.swift */; };
 		0953477E2634131300ED6DC1 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953477D2634131300ED6DC1 /* DrawingApp.swift */; };
 		095347802634131300ED6DC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953477F2634131300ED6DC1 /* ContentView.swift */; };
 		095347822634131500ED6DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095347812634131500ED6DC1 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		094CD0C726372E3900F3CA05 /* AnimatingComplexShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingComplexShapes.swift; sourceTree = "<group>"; };
 		0953477A2634131300ED6DC1 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0953477D2634131300ED6DC1 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		0953477F2634131300ED6DC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				099AE2ED2636856A00815831 /* SpecialEffects_Part2.swift */,
 				099AE2F026368AFF00815831 /* SpecialEffects_Part3.swift */,
 				099AE2F426369FA400815831 /* AnimatingSimpleShapes.swift */,
+				094CD0C726372E3900F3CA05 /* AnimatingComplexShapes.swift */,
 			);
 			path = Day45;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				0953479A263464B300ED6DC1 /* PathsVersusShapes_Part1.swift in Sources */,
 				095347902634189700ED6DC1 /* CustomPaths_Part1.swift in Sources */,
 				095347AD2635557E00ED6DC1 /* CreativeBordersAndFills_Part1.swift in Sources */,
+				094CD0C826372E3900F3CA05 /* AnimatingComplexShapes.swift in Sources */,
 				095347B126355EA100ED6DC1 /* CreativeBordersAndFills_Part2.swift in Sources */,
 				0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */,
 				095347942634595200ED6DC1 /* CustomPaths_Part2.swift in Sources */,
