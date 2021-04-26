@@ -23,6 +23,9 @@
 		095347B126355EA100ED6DC1 /* CreativeBordersAndFills_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347B026355EA000ED6DC1 /* CreativeBordersAndFills_Part2.swift */; };
 		095347B426356D6B00ED6DC1 /* MetalRendering_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347B326356D6A00ED6DC1 /* MetalRendering_Part1.swift */; };
 		095347B7263571B400ED6DC1 /* MetalRendering_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095347B6263571B400ED6DC1 /* MetalRendering_Part2.swift */; };
+		099AE2EA263681B000815831 /* SpecialEffects_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AE2E9263681B000815831 /* SpecialEffects_Part1.swift */; };
+		099AE2EE2636856A00815831 /* SpecialEffects_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AE2ED2636856A00815831 /* SpecialEffects_Part2.swift */; };
+		099AE2F126368AFF00815831 /* SpecialEffects_Part3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AE2F026368AFF00815831 /* SpecialEffects_Part3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		095347B026355EA000ED6DC1 /* CreativeBordersAndFills_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersAndFills_Part2.swift; sourceTree = "<group>"; };
 		095347B326356D6A00ED6DC1 /* MetalRendering_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRendering_Part1.swift; sourceTree = "<group>"; };
 		095347B6263571B400ED6DC1 /* MetalRendering_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRendering_Part2.swift; sourceTree = "<group>"; };
+		099AE2E9263681B000815831 /* SpecialEffects_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects_Part1.swift; sourceTree = "<group>"; };
+		099AE2ED2636856A00815831 /* SpecialEffects_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects_Part2.swift; sourceTree = "<group>"; };
+		099AE2F026368AFF00815831 /* SpecialEffects_Part3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects_Part3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 			children = (
 				0953478D2634137300ED6DC1 /* Day43 */,
 				095347A726352FD900ED6DC1 /* Day44 */,
+				095347B9263577CD00ED6DC1 /* Day45 */,
 				0953477D2634131300ED6DC1 /* DrawingApp.swift */,
 				0953477F2634131300ED6DC1 /* ContentView.swift */,
 				095347812634131500ED6DC1 /* Assets.xcassets */,
@@ -119,6 +126,16 @@
 				095347B6263571B400ED6DC1 /* MetalRendering_Part2.swift */,
 			);
 			path = Day44;
+			sourceTree = "<group>";
+		};
+		095347B9263577CD00ED6DC1 /* Day45 */ = {
+			isa = PBXGroup;
+			children = (
+				099AE2E9263681B000815831 /* SpecialEffects_Part1.swift */,
+				099AE2ED2636856A00815831 /* SpecialEffects_Part2.swift */,
+				099AE2F026368AFF00815831 /* SpecialEffects_Part3.swift */,
+			);
+			path = Day45;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,7 @@
 				095347B126355EA100ED6DC1 /* CreativeBordersAndFills_Part2.swift in Sources */,
 				0953479726345CF400ED6DC1 /* CustomPaths_Part3.swift in Sources */,
 				095347942634595200ED6DC1 /* CustomPaths_Part2.swift in Sources */,
+				099AE2F126368AFF00815831 /* SpecialEffects_Part3.swift in Sources */,
 				095347A92635306300ED6DC1 /* CGAffineTransformView.swift in Sources */,
 				095347B426356D6B00ED6DC1 /* MetalRendering_Part1.swift in Sources */,
 				095347B7263571B400ED6DC1 /* MetalRendering_Part2.swift in Sources */,
@@ -204,6 +222,8 @@
 				0953479E263468C200ED6DC1 /* PathsVersusShapes_Part2.swift in Sources */,
 				0953477E2634131300ED6DC1 /* DrawingApp.swift in Sources */,
 				095347A52634823200ED6DC1 /* StrokeBorderSupport_Part2.swift in Sources */,
+				099AE2EE2636856A00815831 /* SpecialEffects_Part2.swift in Sources */,
+				099AE2EA263681B000815831 /* SpecialEffects_Part1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
