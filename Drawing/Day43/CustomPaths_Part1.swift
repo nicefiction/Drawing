@@ -15,15 +15,13 @@ struct CustomPaths_Part1: View {
     
     var body: some View {
         
-        VStack {
-            Path { path in
-                path.move(to : CGPoint(x : 200.00 , y : 100.00))
-                path.addLine(to : CGPoint(x : 100.00 , y : 300.00))
-                path.addLine(to : CGPoint(x : 300.00 , y : 300.00))
-                path.addLine(to: CGPoint(x: 200.00 , y : 100.00))
-            }
-            .fill(Color.blue)
+        Path { path in
+            path.move(to : CGPoint(x : 200.00 , y : 100.00))
+            path.addLine(to : CGPoint(x : 100.00 , y : 300.00))
+            path.addLine(to : CGPoint(x : 300.00 , y : 300.00))
+            path.addLine(to : CGPoint(x : 200.00 , y : 100.00))
         }
+        .fill(Color.blue)
     }
 }
 
