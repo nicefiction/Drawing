@@ -1,4 +1,8 @@
 // MARK: ArrowShapeAnimatable.swift
+/**
+ CHALLENGE :
+ https://www.hackingwithswift.com/books/ios-swiftui/drawing-wrap-up
+ */
 
 import SwiftUI
 
@@ -82,6 +86,13 @@ struct ArrowShapeAnimatable: View {
                 .overlay(
                     Rectangle()
                         .stroke(lineWidth : lineThicknessAmount))
+            // Optional :
+            Text("\(Int(lineThicknessAmount))")
+                .font(.largeTitle)
+                .bold()
+                .frame(height : 100)
+            Slider(value: $lineThicknessAmount , in : 1...10)
+                .padding(.horizontal)
         }
         .onTapGesture {
             withAnimation {
