@@ -68,7 +68,7 @@ struct PathsVersusShapes_Part2: View {
         Arc(startAngle : .degrees(0.00) ,
             endAngle : .degrees(90.00) ,
             clockwise : true)
-            .stroke(Color.red , lineWidth: 8.00)
+            .stroke(Color.red , lineWidth : 8.00)
             .frame(width : 300)
     }
 }

@@ -10,11 +10,13 @@
  which describes how a path or view should be rotated , scaled , or sheared ;
  and the second is `even-odd fills` ,
  which allow us to control how overlapping shapes should be rendered .
- 
  The `even-odd rule` works like this:
- If a path has no overlaps it will be filled .
- If another path overlaps it , the overlapping part won’t be filled .
- If a third path overlaps the previous two , then it will be filled .
+ If a path has no overlaps
+ it will be filled .
+ If another path overlaps it ,
+ the overlapping part won’t be filled .
+ If a third path overlaps the previous two ,
+ then it will be filled .
  …and so on .
  */
 

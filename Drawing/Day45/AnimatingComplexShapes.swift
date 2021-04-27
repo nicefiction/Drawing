@@ -22,10 +22,15 @@ struct Checkerboard: Shape {
     //  MARK: COMPUTED PROPERTIES
     
     /**
-     NOTE OLIVIER :
+     `NOTE` OLIVIER :
      For the animation to work ,
-     this property has to be called `animatableData` .
-     It appears to be part of the `AnimatablePair` type :
+     this property _has to_ be called `animatableData` .
+     `QUIZ` PAUL HUDSON :
+     If we want to animate a shape changing ,
+     we should add an `animatableData` property .
+     What this does is down to us ;
+     SwiftUI just cares that it exists
+     and is something that can be interpolated smoothly :
      */
     public var animatableData: AnimatablePair<Double , Double> {
         /**
@@ -38,6 +43,9 @@ struct Checkerboard: Shape {
         /**
          ... the `AnimatablePair` can itself be animated .
          We can read individual values from the pair using `.first` and `.second` .
+         `NOTE` :
+         `AnimatablePair` can only animate values that are animatable ,
+         which excludes integers.
          */
         set {
             self.rows = Int(newValue.first)

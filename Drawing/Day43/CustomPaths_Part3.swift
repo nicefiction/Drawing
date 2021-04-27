@@ -23,7 +23,7 @@ struct CustomPaths_Part3: View {
         
         Path { path in
             
-            path.move(to: CGPoint(x : 100.00 , y : 300.00))
+            path.move(to : CGPoint(x : 100.00 , y : 300.00))
             path.addLine(to : CGPoint(x : 300.00 , y : 300.00))
             path.addLine(to : CGPoint(x : 200.00 , y : 100.00))
             path.addLine(to : CGPoint(x : 100.00 , y : 300.00))
@@ -31,8 +31,8 @@ struct CustomPaths_Part3: View {
         }
         .stroke(Color.blue ,
                 style : StrokeStyle(lineWidth : 20.00 ,
-                                    lineCap: .round ,
-                                    lineJoin: .round))
+                                    lineCap : .round ,
+                                    lineJoin : .round))
     }
 }
 
